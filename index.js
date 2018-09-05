@@ -4,7 +4,7 @@ function stringToArray(input) {
     for (let i = 0; i < x.length; i++) {
         let col = [];
         for (let j = 0; j < x[i].length; j++) {
-            col.push(x[i][j].split(""));
+            col.push(x[i][j].split("").toString());
         }
         row.push(col);
     }
